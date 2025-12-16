@@ -1,0 +1,422 @@
+[
+    {
+        "category": "Road Sign Identification",
+        "question": "What does this sign represent? (Red triangle with exclamation mark)",
+        "options": [
+            "No Parking",
+            "General Warning",
+            "Speed Limit",
+            "U-turn"
+        ],
+        "correctAnswer": "General Warning",
+        "explanation": "A red triangle with '!' is a general caution/warning sign indicating potential hazards ahead.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Road Sign Identification",
+        "question": "A circular red-bordered sign with '40' indicates?",
+        "options": [
+            "Minimum speed 40",
+            "Maximum speed 40",
+            "Recommended speed",
+            "School zone"
+        ],
+        "correctAnswer": "Maximum speed 40",
+        "explanation": "Red circle with a number always indicates maximum speed limit. You must not exceed this speed.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Road Sign Identification",
+        "question": "A blue circular sign with a white arrow pointing straight means?",
+        "options": [
+            "One way",
+            "Compulsory ahead",
+            "No entry",
+            "Diversion"
+        ],
+        "correctAnswer": "Compulsory ahead",
+        "explanation": "Blue mandatory signs show required direction. This sign means you must proceed straight ahead.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Road Sign Identification",
+        "question": "A red circle with a horn crossed indicates?",
+        "options": [
+            "Horn allowed",
+            "Horn prohibited",
+            "No overtaking",
+            "Check horn"
+        ],
+        "correctAnswer": "Horn prohibited",
+        "explanation": "A red circle with a crossed-out horn means honking is prohibited in this area (silent zone).",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Road Sign Identification",
+        "question": "A triangle with a train symbol means?",
+        "options": [
+            "Train allowed",
+            "Railway crossing ahead",
+            "Railway station",
+            "No honking"
+        ],
+        "correctAnswer": "Railway crossing ahead",
+        "explanation": "This warning sign indicates a railway crossing ahead. Slow down and check for trains.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Road Sign Identification",
+        "question": "A blue sign with a 'P' indicates?",
+        "options": [
+            "No parking",
+            "Parking allowed",
+            "Private parking",
+            "Permit only"
+        ],
+        "correctAnswer": "Parking allowed",
+        "explanation": "Blue informatory sign with 'P' indicates parking is allowed in this area.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Road Sign Identification",
+        "question": "A triangle with two children running means?",
+        "options": [
+            "Playground",
+            "Zoo area",
+            "School zone warning",
+            "Park"
+        ],
+        "correctAnswer": "School zone warning",
+        "explanation": "This warning sign indicates a school zone ahead. Drive slowly and watch for children.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Road Sign Identification",
+        "question": "A circular red sign with a truck crossed indicates?",
+        "options": [
+            "Speed restriction",
+            "No trucks allowed",
+            "Truck route",
+            "Hazard"
+        ],
+        "correctAnswer": "No trucks allowed",
+        "explanation": "Red prohibitory sign with crossed truck means heavy vehicles are not allowed on this road.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Road Sign Identification",
+        "question": "A triangle with slipping car icon means?",
+        "options": [
+            "Vehicle testing area",
+            "Slippery road ahead",
+            "Over-speeding allowed",
+            "Accident zone"
+        ],
+        "correctAnswer": "Slippery road ahead",
+        "explanation": "This warning sign indicates slippery road conditions ahead. Reduce speed and drive carefully.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Road Sign Identification",
+        "question": "A sign showing a forked road means?",
+        "options": [
+            "Road narrows",
+            "Divider ends",
+            "Y-intersection ahead",
+            "No turns"
+        ],
+        "correctAnswer": "Y-intersection ahead",
+        "explanation": "This warning sign indicates a Y-shaped intersection ahead where the road splits into two.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Car/Vehicle Basics",
+        "question": "What does the clutch pedal do?",
+        "options": [
+            "Stops the vehicle",
+            "Changes gears",
+            "Starts the engine",
+            "Controls speed"
+        ],
+        "correctAnswer": "Changes gears",
+        "explanation": "The clutch pedal disconnects the engine from the transmission, allowing you to change gears smoothly.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Car/Vehicle Basics",
+        "question": "What does a flashing oil indicator mean?",
+        "options": [
+            "Low fuel",
+            "Low oil pressure",
+            "Engine overheating",
+            "Brake failure"
+        ],
+        "correctAnswer": "Low oil pressure",
+        "explanation": "A flashing oil indicator warns of low oil pressure. Stop immediately to prevent engine damage.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Car/Vehicle Basics",
+        "question": "When should you use half-clutch?",
+        "options": [
+            "On highways",
+            "During gear shifting",
+            "During slow movement in traffic",
+            "While braking"
+        ],
+        "correctAnswer": "During slow movement in traffic",
+        "explanation": "Half-clutch is used for slow movement in traffic or when starting on an incline to prevent stalling.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Car/Vehicle Basics",
+        "question": "What does ABS stand for?",
+        "options": [
+            "Automatic Brake System",
+            "Anti-lock Braking System",
+            "Advanced Balance System",
+            "Anti-Belt System"
+        ],
+        "correctAnswer": "Anti-lock Braking System",
+        "explanation": "ABS (Anti-lock Braking System) prevents wheels from locking during emergency braking, maintaining steering control.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Car/Vehicle Basics",
+        "question": "Which gear gives maximum power?",
+        "options": [
+            "1st gear",
+            "2nd gear",
+            "3rd gear",
+            "5th gear"
+        ],
+        "correctAnswer": "1st gear",
+        "explanation": "1st gear provides maximum power and torque but lowest speed. It's used for starting and climbing steep hills.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Car/Vehicle Basics",
+        "question": "The blind spot is:",
+        "options": [
+            "Area only visible in rear mirror",
+            "Area not visible in mirrors",
+            "Area visible on dashboard",
+            "Area visible in side mirrors only"
+        ],
+        "correctAnswer": "Area not visible in mirrors",
+        "explanation": "Blind spots are areas around your vehicle not visible in any mirrors. Always check them before changing lanes.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Car/Vehicle Basics",
+        "question": "What is the ideal tire pressure indicated as?",
+        "options": [
+            "PSI",
+            "RPM",
+            "km/h",
+            "Liters"
+        ],
+        "correctAnswer": "PSI",
+        "explanation": "PSI (Pounds per Square Inch) is the standard unit for measuring tire pressure.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Car/Vehicle Basics",
+        "question": "Engine overheating is usually caused by?",
+        "options": [
+            "Flat tire",
+            "Low coolant",
+            "Battery low",
+            "Dirty windows"
+        ],
+        "correctAnswer": "Low coolant",
+        "explanation": "Low coolant level is the most common cause of engine overheating. Check and refill coolant regularly.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Car/Vehicle Basics",
+        "question": "What does the check engine light mean?",
+        "options": [
+            "Engine door open",
+            "Engine needs a check",
+            "Fuel tank open",
+            "Over-speeding"
+        ],
+        "correctAnswer": "Engine needs a check",
+        "explanation": "Check engine light indicates a problem with the engine or emission system. Get it diagnosed soon.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Car/Vehicle Basics",
+        "question": "What does the handbrake control?",
+        "options": [
+            "Reverse gear",
+            "Parking lock",
+            "Mileage",
+            "Fuel flow"
+        ],
+        "correctAnswer": "Parking lock",
+        "explanation": "Handbrake (parking brake) locks the rear wheels to prevent the vehicle from rolling when parked.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Driving Rules & Traffic",
+        "question": "What is the legal BAC (Blood Alcohol Content) limit in most countries?",
+        "options": [
+            "0.03%",
+            "0.05%",
+            "0.08%",
+            "Zero tolerance"
+        ],
+        "correctAnswer": "0.08%",
+        "explanation": "Most countries set the legal BAC limit at 0.08%. However, it's safest not to drink and drive at all.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Driving Rules & Traffic",
+        "question": "At a roundabout, who has right of way?",
+        "options": [
+            "Vehicles entering",
+            "Vehicles already inside",
+            "Biggest vehicle",
+            "Pedestrians"
+        ],
+        "correctAnswer": "Vehicles already inside",
+        "explanation": "Vehicles already in the roundabout have right of way. Wait for a safe gap before entering.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Driving Rules & Traffic",
+        "question": "What do you do at a yellow light?",
+        "options": [
+            "Speed up",
+            "Stop if safe",
+            "Turn right",
+            "Ignore"
+        ],
+        "correctAnswer": "Stop if safe",
+        "explanation": "Yellow light means caution. Stop if you can do so safely, otherwise proceed with caution.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Driving Rules & Traffic",
+        "question": "Minimum safe following distance?",
+        "options": [
+            "1 second",
+            "2 seconds",
+            "5 seconds",
+            "Car length only"
+        ],
+        "correctAnswer": "2 seconds",
+        "explanation": "The 2-second rule ensures safe following distance. Increase it in bad weather or at high speeds.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Driving Rules & Traffic",
+        "question": "What does a broken white line indicate?",
+        "options": [
+            "No crossing",
+            "Safe to overtake",
+            "Over-speed allowed",
+            "School zone"
+        ],
+        "correctAnswer": "Safe to overtake",
+        "explanation": "Broken white lines indicate you may cross or overtake when it's safe to do so.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Driving Rules & Traffic",
+        "question": "When should high beams be avoided?",
+        "options": [
+            "During the day",
+            "Behind another vehicle",
+            "In tunnels",
+            "On highways"
+        ],
+        "correctAnswer": "Behind another vehicle",
+        "explanation": "Avoid high beams when following another vehicle or when there's oncoming traffic to prevent blinding other drivers.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Driving Rules & Traffic",
+        "question": "Horn should NOT be used in?",
+        "options": [
+            "Highways",
+            "Silent zones",
+            "Overtaking",
+            "Turns"
+        ],
+        "correctAnswer": "Silent zones",
+        "explanation": "Horns are prohibited in silent zones like hospitals, schools, and residential areas during night hours.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Driving Rules & Traffic",
+        "question": "What should you do before overtaking?",
+        "options": [
+            "Check mirrors & indicators",
+            "Close eyes",
+            "Press clutch",
+            "Slow down"
+        ],
+        "correctAnswer": "Check mirrors & indicators",
+        "explanation": "Before overtaking, check mirrors, blind spots, signal your intention, and ensure it's safe to proceed.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Driving Rules & Traffic",
+        "question": "If an ambulance approaches with siren, you should?",
+        "options": [
+            "Ignore",
+            "Stop immediately",
+            "Give way",
+            "Follow it"
+        ],
+        "correctAnswer": "Give way",
+        "explanation": "Always give way to emergency vehicles. Move to the side and let them pass safely.",
+        "difficulty": "beginner",
+        "points": 10
+    },
+    {
+        "category": "Driving Rules & Traffic",
+        "question": "Seat belts are required for?",
+        "options": [
+            "Driver only",
+            "Front passengers only",
+            "All passengers",
+            "Kids only"
+        ],
+        "correctAnswer": "All passengers",
+        "explanation": "Seat belts are mandatory for all passengers in the vehicle for safety in case of accidents.",
+        "difficulty": "beginner",
+        "points": 10
+    }
+]

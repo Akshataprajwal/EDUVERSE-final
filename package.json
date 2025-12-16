@@ -1,0 +1,39 @@
+{
+  "name": "eduverse-backend",
+  "version": "1.0.0",
+  "description": "EDUVERSE - Professional E-Learning Platform Backend",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "seed": "node src/utils/seedAdmin.js",
+    "seed:courses": "node src/utils/seedCompleteCourseContent.js",
+    "seed:complete": "node src/utils/seedComplete2Wheeler.js",
+    "seed:final": "node src/utils/seedFinalComplete.js",
+    "seed:quizzes": "node src/utils/seedQuizzesOnly.js",
+    "enroll": "node src/utils/enrollStudents.js"
+  },
+  "keywords": [
+    "eduverse",
+    "mern",
+    "elearning"
+  ],
+  "author": "EDUVERSE Team",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.10.1",
+    "pdfkit": "^0.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

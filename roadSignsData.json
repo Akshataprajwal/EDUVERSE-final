@@ -1,0 +1,567 @@
+[
+    {
+        "category": "Mandatory",
+        "name": "Mandatory Road Signs",
+        "description": "Blue circular signs indicating actions that MUST be followed",
+        "signs": [
+            {
+                "title": "Compulsory Ahead",
+                "image": "https://cdn-icons-png.flaticon.com/512/3097/3097388.png",
+                "description": "Vehicles must proceed straight ahead only. No turns allowed.",
+                "example": "Commonly found at T-junctions where only straight movement is permitted.",
+                "quiz": {
+                    "question": "What does a blue circle with white arrow pointing up mean?",
+                    "options": [
+                        "Optional ahead",
+                        "Must go straight",
+                        "Can turn",
+                        "Stop"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Compulsory Turn Left",
+                "image": "https://cdn-icons-png.flaticon.com/512/3097/3097389.png",
+                "description": "Vehicles must turn left. Going straight or right is prohibited.",
+                "example": "Used at intersections where left turn is mandatory.",
+                "quiz": {
+                    "question": "A blue circle with white left arrow means?",
+                    "options": [
+                        "Can turn left",
+                        "Must turn left",
+                        "No left turn",
+                        "Slow down"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Compulsory Turn Right",
+                "image": "https://cdn-icons-png.flaticon.com/512/3097/3097390.png",
+                "description": "Vehicles must turn right. No other direction allowed.",
+                "example": "Found at junctions where right turn is compulsory.",
+                "quiz": {
+                    "question": "What action is required when you see a blue circle with right arrow?",
+                    "options": [
+                        "Optional right",
+                        "Must turn right",
+                        "No entry",
+                        "U-turn"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Compulsory Roundabout",
+                "image": "https://cdn-icons-png.flaticon.com/512/3097/3097391.png",
+                "description": "Vehicles must go around the roundabout in the direction shown.",
+                "example": "Placed before circular intersections.",
+                "quiz": {
+                    "question": "At a roundabout sign, you must?",
+                    "options": [
+                        "Go straight",
+                        "Go around it",
+                        "Stop",
+                        "Reverse"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Compulsory Cycle Track",
+                "image": "https://cdn-icons-png.flaticon.com/512/3097/3097392.png",
+                "description": "Cyclists must use this designated track only.",
+                "example": "Separate cycle lanes in cities.",
+                "quiz": {
+                    "question": "Who must use the cycle track?",
+                    "options": [
+                        "Cars",
+                        "Cyclists",
+                        "Pedestrians",
+                        "Trucks"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Compulsory Sound Horn",
+                "image": "https://cdn-icons-png.flaticon.com/512/3097/3097393.png",
+                "description": "Drivers must sound horn at this location for safety.",
+                "example": "Sharp curves, blind spots on hills.",
+                "quiz": {
+                    "question": "When should you sound horn?",
+                    "options": [
+                        "Anytime",
+                        "At this sign location",
+                        "Never",
+                        "In city only"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Compulsory Minimum Speed",
+                "image": "https://cdn-icons-png.flaticon.com/512/3097/3097394.png",
+                "description": "Vehicles must maintain at least this minimum speed.",
+                "example": "Highways and expressways.",
+                "quiz": {
+                    "question": "Minimum speed sign means?",
+                    "options": [
+                        "Maximum speed",
+                        "Must maintain at least this speed",
+                        "Recommended speed",
+                        "No limit"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Compulsory Keep Left",
+                "image": "https://cdn-icons-png.flaticon.com/512/3097/3097395.png",
+                "description": "Vehicles must keep to the left side of the road or divider.",
+                "example": "Near dividers and medians.",
+                "quiz": {
+                    "question": "Keep left sign indicates?",
+                    "options": [
+                        "Optional left",
+                        "Must stay left",
+                        "Turn left",
+                        "No entry"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Compulsory Keep Right",
+                "image": "https://cdn-icons-png.flaticon.com/512/3097/3097396.png",
+                "description": "Vehicles must keep to the right side.",
+                "example": "One-way streets, specific lane directions.",
+                "quiz": {
+                    "question": "What does keep right sign require?",
+                    "options": [
+                        "Turn right",
+                        "Stay on right side",
+                        "Overtake right",
+                        "Stop right"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Compulsory Ahead or Turn Left",
+                "image": "https://cdn-icons-png.flaticon.com/512/3097/3097397.png",
+                "description": "Vehicles can either go straight or turn left only.",
+                "example": "Intersections with two permitted directions.",
+                "quiz": {
+                    "question": "This sign allows you to?",
+                    "options": [
+                        "Only go straight",
+                        "Go straight or left",
+                        "Turn right",
+                        "U-turn"
+                    ],
+                    "correctAnswer": 1
+                }
+            }
+        ]
+    },
+    {
+        "category": "Cautionary",
+        "name": "Cautionary/Warning Signs",
+        "description": "Red triangular signs warning of hazards ahead",
+        "signs": [
+            {
+                "title": "School Zone Ahead",
+                "image": "https://cdn-icons-png.flaticon.com/512/2917/2917242.png",
+                "description": "School nearby. Children may be crossing. Reduce speed to 25 km/h.",
+                "example": "Near schools and educational institutions.",
+                "quiz": {
+                    "question": "What should you do in a school zone?",
+                    "options": [
+                        "Speed up",
+                        "Reduce speed to 25 km/h",
+                        "Honk loudly",
+                        "Overtake"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Railway Crossing Ahead",
+                "image": "https://cdn-icons-png.flaticon.com/512/2917/2917243.png",
+                "description": "Railway tracks ahead. Stop, look, and listen for trains.",
+                "example": "Before unmanned and manned railway crossings.",
+                "quiz": {
+                    "question": "At railway crossing sign, you must?",
+                    "options": [
+                        "Speed up",
+                        "Stop and check for trains",
+                        "Honk",
+                        "Reverse"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Sharp Turn Right",
+                "image": "https://cdn-icons-png.flaticon.com/512/2917/2917244.png",
+                "description": "Dangerous right curve ahead. Slow down before the turn.",
+                "example": "Mountain roads, sharp bends.",
+                "quiz": {
+                    "question": "How to handle sharp turn sign?",
+                    "options": [
+                        "Maintain speed",
+                        "Slow down before turn",
+                        "Accelerate",
+                        "Ignore"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Sharp Turn Left",
+                "image": "https://cdn-icons-png.flaticon.com/512/2917/2917245.png",
+                "description": "Dangerous left curve ahead. Reduce speed.",
+                "example": "Hilly areas, curved roads.",
+                "quiz": {
+                    "question": "Sharp left turn sign requires?",
+                    "options": [
+                        "Speed up",
+                        "Slow down",
+                        "Stop",
+                        "Reverse"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Slippery Road",
+                "image": "https://cdn-icons-png.flaticon.com/512/2917/2917246.png",
+                "description": "Road surface may be slippery. Avoid sudden braking.",
+                "example": "After rain, near water bodies.",
+                "quiz": {
+                    "question": "On slippery road, you should?",
+                    "options": [
+                        "Brake hard",
+                        "Avoid sudden braking",
+                        "Speed up",
+                        "Zigzag"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Narrow Road Ahead",
+                "image": "https://cdn-icons-png.flaticon.com/512/2917/2917247.png",
+                "description": "Road narrows ahead. Be prepared to give way.",
+                "example": "Bridge approaches, construction zones.",
+                "quiz": {
+                    "question": "Narrow road sign means?",
+                    "options": [
+                        "Road widens",
+                        "Road becomes narrow",
+                        "Stop",
+                        "U-turn"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Pedestrian Crossing",
+                "image": "https://cdn-icons-png.flaticon.com/512/2917/2917248.png",
+                "description": "Pedestrians may be crossing. Slow down and give way.",
+                "example": "Zebra crossings, busy areas.",
+                "quiz": {
+                    "question": "At pedestrian crossing, priority goes to?",
+                    "options": [
+                        "Vehicles",
+                        "Pedestrians",
+                        "Bikes",
+                        "Trucks"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Traffic Signals Ahead",
+                "image": "https://cdn-icons-png.flaticon.com/512/2917/2917249.png",
+                "description": "Traffic lights ahead. Be prepared to stop.",
+                "example": "Before major intersections.",
+                "quiz": {
+                    "question": "Traffic signal ahead sign means?",
+                    "options": [
+                        "No signals",
+                        "Signals coming up",
+                        "Stop now",
+                        "Go fast"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Road Work Ahead",
+                "image": "https://cdn-icons-png.flaticon.com/512/2917/2917250.png",
+                "description": "Construction or maintenance work ahead. Slow down.",
+                "example": "Road repair zones.",
+                "quiz": {
+                    "question": "Road work sign requires?",
+                    "options": [
+                        "Speed up",
+                        "Slow down and be cautious",
+                        "Stop",
+                        "Reverse"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Steep Descent",
+                "image": "https://cdn-icons-png.flaticon.com/512/2917/2917251.png",
+                "description": "Steep downhill slope ahead. Use lower gear and engine braking.",
+                "example": "Mountain roads, hilly terrain.",
+                "quiz": {
+                    "question": "On steep descent, you should?",
+                    "options": [
+                        "Use lower gear",
+                        "Neutral gear",
+                        "High speed",
+                        "Brake continuously"
+                    ],
+                    "correctAnswer": 0
+                }
+            },
+            {
+                "title": "Steep Ascent",
+                "image": "https://cdn-icons-png.flaticon.com/512/2917/2917252.png",
+                "description": "Steep uphill slope ahead. Use lower gear for power.",
+                "example": "Hill stations, mountain passes.",
+                "quiz": {
+                    "question": "Steep ascent requires?",
+                    "options": [
+                        "High gear",
+                        "Lower gear for power",
+                        "Neutral",
+                        "Reverse"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Falling Rocks",
+                "image": "https://cdn-icons-png.flaticon.com/512/2917/2917253.png",
+                "description": "Risk of falling rocks or landslides. Drive carefully.",
+                "example": "Mountain roads, cliff areas.",
+                "quiz": {
+                    "question": "Falling rocks sign indicates?",
+                    "options": [
+                        "Safe zone",
+                        "Risk of landslides",
+                        "Parking area",
+                        "Rest stop"
+                    ],
+                    "correctAnswer": 1
+                }
+            }
+        ]
+    },
+    {
+        "category": "Informatory",
+        "name": "Informatory Signs",
+        "description": "Blue/green rectangular signs providing helpful information",
+        "signs": [
+            {
+                "title": "Parking Allowed",
+                "image": "https://cdn-icons-png.flaticon.com/512/3448/3448339.png",
+                "description": "Parking is permitted in this area.",
+                "example": "Designated parking zones in cities.",
+                "quiz": {
+                    "question": "Blue 'P' sign means?",
+                    "options": [
+                        "No parking",
+                        "Parking allowed",
+                        "Police",
+                        "Petrol"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Hospital",
+                "image": "https://cdn-icons-png.flaticon.com/512/3448/3448340.png",
+                "description": "Medical facility or hospital nearby.",
+                "example": "Near hospitals and clinics.",
+                "quiz": {
+                    "question": "Blue 'H' sign indicates?",
+                    "options": [
+                        "Hotel",
+                        "Hospital",
+                        "Highway",
+                        "Home"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Fuel Station",
+                "image": "https://cdn-icons-png.flaticon.com/512/3448/3448341.png",
+                "description": "Petrol/diesel pump ahead.",
+                "example": "Before fuel stations on highways.",
+                "quiz": {
+                    "question": "Fuel pump sign helps you?",
+                    "options": [
+                        "Find food",
+                        "Find fuel",
+                        "Find hotel",
+                        "Find hospital"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Restaurant/Food",
+                "image": "https://cdn-icons-png.flaticon.com/512/3448/3448342.png",
+                "description": "Food and refreshments available ahead.",
+                "example": "Highway rest stops, restaurants.",
+                "quiz": {
+                    "question": "Fork and knife sign means?",
+                    "options": [
+                        "Parking",
+                        "Food available",
+                        "Hospital",
+                        "Fuel"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Telephone",
+                "image": "https://cdn-icons-png.flaticon.com/512/3448/3448343.png",
+                "description": "Public telephone available.",
+                "example": "Rest areas, service stations.",
+                "quiz": {
+                    "question": "Phone symbol indicates?",
+                    "options": [
+                        "No phones",
+                        "Phone available",
+                        "Emergency",
+                        "Police"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "First Aid",
+                "image": "https://cdn-icons-png.flaticon.com/512/3448/3448344.png",
+                "description": "First aid or medical assistance available.",
+                "example": "Highway rest stops, toll plazas.",
+                "quiz": {
+                    "question": "Red cross sign means?",
+                    "options": [
+                        "Stop",
+                        "First aid available",
+                        "No entry",
+                        "Hospital only"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Resting Place",
+                "image": "https://cdn-icons-png.flaticon.com/512/3448/3448345.png",
+                "description": "Rest area or picnic spot ahead.",
+                "example": "Highway rest stops.",
+                "quiz": {
+                    "question": "Rest area sign is for?",
+                    "options": [
+                        "Parking only",
+                        "Taking break",
+                        "Fuel",
+                        "Food"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Light Refreshment",
+                "image": "https://cdn-icons-png.flaticon.com/512/3448/3448346.png",
+                "description": "Snacks and light refreshments available.",
+                "example": "Highway cafes, rest stops.",
+                "quiz": {
+                    "question": "Coffee cup sign indicates?",
+                    "options": [
+                        "Hotel",
+                        "Light refreshments",
+                        "Restaurant",
+                        "Bar"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Public Toilet",
+                "image": "https://cdn-icons-png.flaticon.com/512/3448/3448347.png",
+                "description": "Public restroom facilities available.",
+                "example": "Rest areas, service stations.",
+                "quiz": {
+                    "question": "WC sign means?",
+                    "options": [
+                        "Water cooler",
+                        "Toilet facilities",
+                        "Waiting area",
+                        "Workshop"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Distance Marker",
+                "image": "https://cdn-icons-png.flaticon.com/512/3448/3448348.png",
+                "description": "Shows distance to destination in kilometers.",
+                "example": "Highways showing city distances.",
+                "quiz": {
+                    "question": "Distance markers help you?",
+                    "options": [
+                        "Find speed",
+                        "Know distance to destination",
+                        "Find fuel",
+                        "Park"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Direction Sign",
+                "image": "https://cdn-icons-png.flaticon.com/512/3448/3448349.png",
+                "description": "Shows direction to cities or locations.",
+                "example": "Highway junctions, intersections.",
+                "quiz": {
+                    "question": "Direction signs show?",
+                    "options": [
+                        "Speed limit",
+                        "Way to destinations",
+                        "Parking",
+                        "Fuel"
+                    ],
+                    "correctAnswer": 1
+                }
+            },
+            {
+                "title": "Tourist Information",
+                "image": "https://cdn-icons-png.flaticon.com/512/3448/3448350.png",
+                "description": "Tourist information center or point of interest.",
+                "example": "Tourist spots, heritage sites.",
+                "quiz": {
+                    "question": "'i' symbol indicates?",
+                    "options": [
+                        "Internet",
+                        "Information center",
+                        "Insurance",
+                        "Inspection"
+                    ],
+                    "correctAnswer": 1
+                }
+            }
+        ]
+    }
+]

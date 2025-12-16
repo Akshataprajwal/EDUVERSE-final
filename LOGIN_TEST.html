@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDUVERSE - Login Test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 500px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        input:focus,
+        select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .result.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .result.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .result.info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+
+        pre {
+            background: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin-top: 10px;
+            font-size: 12px;
+        }
+
+        .demo-accounts {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .demo-accounts h3 {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .demo-accounts p {
+            font-size: 12px;
+            color: #888;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🎓 EDUVERSE</h1>
+        <p class="subtitle">Login Test Page</p>
+
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" value="student@eduverse.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" value="student123" required>
+            </div>
+
+            <div class="form-group">
+                <label for="role">Quick Select</label>
+                <select id="role">
+                    <option value="student">Student</option>
+                    <option value="instructor">Instructor</option>
+                    <option value="admin">Admin</option>
+                </select>
+            </div>
+
+            <button type="submit">🔐 Test Login</button>
+        </form>
+
+        <div id="result" class="result"></div>
+
+        <div class="demo-accounts">
+            <h3>📋 Demo Accounts:</h3>
+            <p><strong>Student:</strong> student@eduverse.com / student123</p>
+            <p><strong>Instructor:</strong> instructor@eduverse.com / instructor123</p>
+            <p><strong>Admin:</strong> admin@eduverse.com / admin123</p>
+        </div>
+    </div>
+
+    <script>
+        const roleSelect = document.getElementById('role');
+        const emailInput = document.getElementById('email');
+        const passwordInput = document.getElementById('password');
+        const loginForm = document.getElementById('loginForm');
+        const resultDiv = document.getElementById('result');
+
+        // Quick role selection
+        roleSelect.addEventListener('change', (e) => {
+            const role = e.target.value;
+            emailInput.value = `${role}@eduverse.com`;
+            passwordInput.value = `${role}123`;
+        });
+
+        // Login form submission
+        loginForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const email = emailInput.value;
+            const password = passwordInput.value;
+
+            resultDiv.style.display = 'block';
+            resultDiv.className = 'result info';
+            resultDiv.innerHTML = '⏳ Testing login...';
+
+            try {
+                // Test backend connection first
+                resultDiv.innerHTML = '🔍 Step 1: Checking backend connection...';
+
+                const backendTest = await fetch('http://localhost:5000');
+                if (!backendTest.ok) {
+                    throw new Error('Backend not responding');
+                }
+
+                resultDiv.innerHTML = '✅ Step 1: Backend is running<br>🔐 Step 2: Attempting login...';
+
+                // Attempt login
+                const response = await fetch('http://localhost:5000/api/auth/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ email, password })
+                });
+
+                const data = await response.json();
+
+                if (response.ok && data.success) {
+                    resultDiv.className = 'result success';
+                    resultDiv.innerHTML = `
+                        <strong>✅ LOGIN SUCCESSFUL!</strong><br><br>
+                        <strong>User:</strong> ${data.data.name}<br>
+                        <strong>Email:</strong> ${data.data.email}<br>
+                        <strong>Role:</strong> ${data.data.role}<br>
+                        <strong>Token:</strong> ${data.token.substring(0, 20)}...<br><br>
+                        <strong>✨ Your login is working!</strong><br>
+                        Now try logging in through your React app at:<br>
+                        <a href="http://localhost:5176" target="_blank">http://localhost:5176</a>
+                        <pre>${JSON.stringify(data, null, 2)}</pre>
+                    `;
+                } else {
+                    resultDiv.className = 'result error';
+                    resultDiv.innerHTML = `
+                        <strong>❌ LOGIN FAILED</strong><br><br>
+                        <strong>Status:</strong> ${response.status}<br>
+                        <strong>Message:</strong> ${data.message || 'Unknown error'}<br>
+                        <pre>${JSON.stringify(data, null, 2)}</pre>
+                    `;
+                }
+            } catch (error) {
+                resultDiv.className = 'result error';
+                resultDiv.innerHTML = `
+                    <strong>❌ ERROR</strong><br><br>
+                    <strong>Message:</strong> ${error.message}<br><br>
+                    <strong>Possible causes:</strong><br>
+                    • Backend not running (http://localhost:5000)<br>
+                    • MongoDB not running<br>
+                    • CORS issue<br>
+                    • Network error<br><br>
+                    <strong>Check:</strong><br>
+                    1. Is backend running? (npm run dev in backend folder)<br>
+                    2. Is MongoDB running?<br>
+                    3. Check backend console for errors
+                `;
+            }
+        });
+    </script>
+</body>
+
+</html>
